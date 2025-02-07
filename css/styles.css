@@ -672,6 +672,10 @@ section ul li{
     margin-bottom: 16px;
 }
 
+.modal-form .form-group:nth-child(5) {
+    margin-bottom: 24px;
+}
+
 .form-label {
     font-size: 12px;
     line-height: 1.17;
