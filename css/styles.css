@@ -668,6 +668,10 @@ section ul li{
     margin-bottom: 8px;
 }
 
+.modal-form .form-group:nth-child(4) {
+    margin-bottom: 16px;
+}
+
 .form-label {
     font-size: 12px;
     line-height: 1.17;
