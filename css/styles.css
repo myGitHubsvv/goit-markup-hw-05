@@ -789,7 +789,6 @@ section ul li{
 /* ...existing code... */
 
 /* ..........................  FOOTER ..........................   */
-
 .page-footer {
     padding: 100px 0;
     background-color: #2e2f42;
@@ -829,6 +828,8 @@ section ul li{
 
 .page-footer .social-link:hover, .page-footer .social-link:focus {
     background-color: #31d0aa;
+
+
 }
 
 /* .......................... / FOOTER .........................   */
