@@ -611,8 +611,14 @@ section ul li{
 
 .page-footer .social-link:hover, .page-footer .social-link:focus {
     background-color: #31d0aa;
+}
 
+.subscribe-container {
+    margin-left: auto;
+}
 
+.checkbox-custom {
+    margin-right: 15px;
 }
 
 /* .......................... / FOOTER .........................   */
