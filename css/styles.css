@@ -636,6 +636,10 @@ section ul li{
 }
 
 .modal-form .form-group {
+    margin-bottom: 8px;
+}
+
+.modal-form .form-group:nth-child(4) {
     margin-bottom: 16px;
 }
 
