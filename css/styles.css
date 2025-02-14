@@ -656,10 +656,6 @@ section ul li{
     position: relative;
 }
 
-.footer-container > div {
-    margin-bottom: 24px;
-}
-
 .form-input {
     width: 100%;
     height: 40px;
@@ -714,7 +710,9 @@ section ul li{
     color: var(--label-color, #8e8f99);
 }
 
-
+.form-group {
+    margin-bottom: 24px;
+}
 
 .checkbox-custom {
     width: 16px;
