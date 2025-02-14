@@ -654,6 +654,9 @@ section ul li{
 
 .input-container {
     position: relative;
+}
+
+.footer-container > div {
     margin-bottom: 24px;
 }
 
