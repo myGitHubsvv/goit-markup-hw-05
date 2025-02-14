@@ -595,10 +595,6 @@ section ul li{
     padding: 72px 24px 24px 24px;
 }
 
-.form-group_4 {
-    margin-bottom: 16px;
-}
-
 .modal-close-btn {
     position: absolute;
     top: 24px;
@@ -640,7 +636,7 @@ section ul li{
 }
 
 .modal-form .form-group {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .form-label {
@@ -709,6 +705,8 @@ section ul li{
     letter-spacing: 0.04em;
     color: var(--label-color, #8e8f99);
 }
+
+
 
 .checkbox-custom {
     width: 16px;
