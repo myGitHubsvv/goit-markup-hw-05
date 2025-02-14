@@ -595,6 +595,10 @@ section ul li{
     padding: 72px 24px 24px 24px;
 }
 
+.modal-window .modal-form:nth-child(4) {
+    margin-bottom: 16px;
+}
+
 .modal-close-btn {
     position: absolute;
     top: 24px;
