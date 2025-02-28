@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .main__header {
     background-color: #2e2f42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero\ image.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -332,7 +332,7 @@ li.main__item_three {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.main__projects .main__item-content p {
+.main__projects .main__item-content .main__item-text {
     position: absolute;
     top: 0;
     font-size: 16px;
@@ -340,7 +340,7 @@ li.main__item_three {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     padding: 40px 32px;
-    background-color: #4d5ae5;
+    /* background-color: #4d5ae5; */
     height: 100%;
     width: 100%;
     transform: translateY(100%);
@@ -647,7 +647,8 @@ main section .main__projects .container {
 
 .modal-container {
     visibility: none;
-    
+    visibility: 0;
+    pointer-events: none;
 
     position: fixed;
     top: 0;
@@ -657,6 +658,16 @@ main section .main__projects .container {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+/* ......................... IS-OPENED ........................... */
+
+.modal-container.is-opened {
+    visibility: visible;
+    visibility: 1;
+    pointer-events: all;
+}
+
+/* ....................... / IS-OPENED ........................... */
 
 .modal-window {
     position: absolute;
@@ -848,13 +859,29 @@ main section .main__projects .container {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* ........................ / MODAL WINDOW ..................... */
 
-/* ........................ IS-OPENED ........................... */
+/* ........................ / MODAL WINDOW_2 ..................... */
 
-.modal-container .is-opened {
-    visibility: visible;
+/* .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
 }
 
-/* ....................... / IS-OPENED ........................... */
+.modal {
+    width: 517px;
+    min-height: 794px;
+    background-color: #fafafa;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
-/* ........................ / MODAL WINDOW ..................... */
+} */
+
+/* ........................ / MODAL WINDOW_2 /..................... */
